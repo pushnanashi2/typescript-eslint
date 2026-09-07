@@ -55,6 +55,33 @@ const createDefaultCompilerOptionsFromExtra = vi.mocked(
 // eslint-disable-next-line @typescript-eslint/no-deprecated -- see #10215
 const globSyncMock = vi.mocked(tinyGlobbyModule.globSync);
 
+describe(parser.parse, () => {
+  it('sets the Program range to span the entire source text', () => {
+    const code = `// foo
+
+x
+
+// bar
+`;
+    const ast = parser.parse(code, {
+      loc: true,
+      range: true,
+    });
+
+    expect(ast.range).toEqual([0, code.length]);
+    expect(ast.loc).toEqual({
+      end: {
+        column: 0,
+        line: 6,
+      },
+      start: {
+        column: 0,
+        line: 1,
+      },
+    });
+  });
+});
+
 /**
  * Aligns paths between environments, node for windows uses `\`, for linux and mac uses `/`
  */
