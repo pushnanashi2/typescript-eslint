@@ -84,9 +84,11 @@ Snapshot Diff:
     ],
     sourceType: 'module',
 
-    range: [0, 101],
+-   range: [73, 101],
++   range: [0, 101],
     loc: {
-      start: { column: 0, line: 1 },
+-     start: { column: 0, line: 3 },
++     start: { column: 0, line: 1 },
       end: { column: 0, line: 5 },
     },
   }

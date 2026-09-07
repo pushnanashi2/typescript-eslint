@@ -340,9 +340,9 @@ Program {
   ],
   sourceType: "module",
 
-  range: [0, 220],
+  range: [73, 220],
   loc: {
-    start: { column: 0, line: 1 },
+    start: { column: 0, line: 3 },
     end: { column: 0, line: 8 },
   },
 }

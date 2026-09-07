@@ -159,9 +159,9 @@ Program {
   ],
   sourceType: "script",
 
-  range: [0, 158],
+  range: [73, 158],
   loc: {
-    start: { column: 0, line: 1 },
+    start: { column: 0, line: 3 },
     end: { column: 0, line: 6 },
   },
 }

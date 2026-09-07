@@ -516,9 +516,9 @@ Program {
   ],
   sourceType: "script",
 
-  range: [0, 406],
+  range: [73, 406],
   loc: {
-    start: { column: 0, line: 1 },
+    start: { column: 0, line: 3 },
     end: { column: 0, line: 11 },
   },
 }

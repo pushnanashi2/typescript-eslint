@@ -582,9 +582,9 @@ Program {
   ],
   sourceType: "script",
 
-  range: [0, 235],
+  range: [73, 235],
   loc: {
-    start: { column: 0, line: 1 },
+    start: { column: 0, line: 3 },
     end: { column: 0, line: 11 },
   },
 }

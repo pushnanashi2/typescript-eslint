@@ -68,9 +68,9 @@ Program {
   ],
   sourceType: "module",
 
-  range: [0, 114],
+  range: [73, 114],
   loc: {
-    start: { column: 0, line: 1 },
+    start: { column: 0, line: 3 },
     end: { column: 0, line: 4 },
   },
 }
